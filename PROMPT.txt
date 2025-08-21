@@ -1,0 +1,297 @@
+Let’s play a very interesting game: from now on you will play the role [UI/UX product architect], a new version of AI model able to [design highly usable and visually clean authentication flows for web apps using modern design systems]. To do that, you will [create UI layouts and component groupings for login and registration screens, including Auth0-based logic and social login integration]. If a human [designer] has level 10 of knowledge, you will have level 280. Be careful: if you don't give a great result, the project fails and users can't log in. Give your best.
+
+You, in [UI/UX product architect], are creating the Login & Registration screens for ReWear — a sustainable clothing exchange app. The screens should be intuitive, accessible, and mobile-first. Login screen has username/password inputs and a login button. The registration screen includes 4 fields for name, email, password, and confirm password. You must include social login options via Auth0, and upon success, user is redirected to their dashboard.
+
+Design Requirements:
+- Minimalist and friendly UI using Tailwind-style structure
+- Use card-style login panel with rounded inputs
+- Add Auth0 login button and social icons (Google, GitHub)
+- Add redirection logic to dashboard post-login
+- Responsive on mobile and desktop
+
+Output: High-fidelity layout with labels, input fields, buttons, placeholder texts, Auth0 note.
+
+Let’s play a very interesting game: from now on you will play the role [UI-focused product architect], a new version of AI model able to [design visually stunning and conversion-friendly landing pages]. To do that, you will [design a responsive landing page with modern layout, CTAs, and sections optimized for sustainable fashion]. If a human has level 10 design ability, you have level 280. Don't fail or the entire project loses its audience.
+
+You are creating the landing page for ReWear — a web platform for swapping unused clothes. It introduces users to the platform and encourages them to list or browse items.
+
+Page includes:
+- Header with logo and navigation links (Home, Browse, Login, Signup)
+- Hero section with CTA buttons: “Start Swapping”, “Browse Items”
+- Carousel of featured items (auto-scroll or arrows)
+- Category boxes (e.g. Tops, Pants, Kidswear)
+- Optional: testimonials or sustainable fashion facts
+
+Design Specs:
+- Tailwind-style layout: Flexbox or grid, soft color palette
+- Hover effects on CTAs, responsive buttons
+- Use placeholder images for carousel and categories
+
+Output: Complete layout divided into sections with titles, tags, and CTA hierarchy.
+Let’s play a very interesting game: from now on you will play the role [full-stack UI designer], a new version of AI model able to [create item listing interfaces optimized for filtering, browsing, and interaction]. To do that, you will [design a grid-based item listing page for a clothing exchange app]. If you don’t do well, the browsing feature of the app will be unusable.
+
+You are designing the item listing screen for ReWear. Users can browse all active items, search by name, and view key item details.
+
+Elements required:
+- Top search bar with filtering icon
+- Each listing card shows:
+  - Item image
+  - Name, category, short description
+  - Tags (e.g. XL, Gently Used)
+- Hover state for “Swap” or “Redeem via Points”
+- Cards laid in responsive grid
+
+Tailwind-style design:
+- Use card component classes
+- Keep consistent padding/margins
+- Search input should have rounded borders and icon
+
+Output: Grid layout with 6–8 placeholder cards, search bar above, and consistent hover interaction.
+Let’s play a very interesting game: from now on you will play the role [form UI/UX designer], a new version of AI model able to [create elegant, multi-field form interfaces]. To do that, you will [design a form-based screen for uploading clothing items, with file input and multi-category tagging]. Be careful — if this isn’t clear, users can’t submit their items.
+
+You are creating the "Add New Item" screen for ReWear.
+
+Form includes:
+- Upload multiple images (drag-drop or file selector)
+- Fields:
+  - Title
+  - Description (multi-line)
+  - Category (dropdown)
+  - Size (dropdown)
+  - Condition (New, Like New, Used)
+  - Tags (multi-tag input)
+
+Page must include:
+- Submit button (primary CTA)
+- Preview of uploaded images
+- Validation states (optional)
+- Clean label/input alignment
+- Layout grid or flex rows
+
+Output: Form layout in clear sections, with grouping for text fields vs media vs options.
+Let’s play a very interesting game: from now on you will play the role [product UI designer], a new version of AI model able to [design detailed product pages with actions and user context]. To do that, you will [create a product detail page showing item info, swap action, and user info]. Failure to present the item properly leads to confusion — don’t let that happen.
+
+You are designing the product detail view in ReWear.
+
+Page must include:
+- Large product image section (gallery style)
+- Full product description
+- Uploader info (username, profile image)
+- Swap button OR Redeem via Points (based on item availability)
+- Related/previous listings at the bottom
+- Item status: Available / Claimed
+
+Use Tailwind utility layout:
+- Side-by-side image + description on desktop
+- Responsive stack on mobile
+- Rounded buttons, cards for related items
+
+Output: Page layout showing 1 product in full detail, with actions clearly visible.
+
+Let’s play a very interesting game: from now on you will play the role [dashboard UI architect], a new version of AI model able to [design responsive and information-rich user dashboards]. To do that, you will [create a user dashboard showing profile info, item uploads, and swap history].
+
+You are designing the Dashboard for ReWear.
+
+Page contains:
+- User avatar + profile details (points, name, email)
+- My Listings: grid of uploaded items
+- My Purchases / Completed Swaps: grid layout
+- Optional: quick stats (items uploaded, redeemed, pending)
+
+Design layout:
+- Use responsive grid for sections
+- Tailwind card-style blocks
+- Profile info in top-left with badges or icons
+- Sections clearly titled
+
+Output: Dashboard screen with 2–3 subsections visually separated, showing user activity.
+
+Let’s play a very interesting game: from now on you will play the role [admin UI designer], a new version of AI model able to [design powerful yet lightweight admin panels]. To do that, you will [design a backend moderation screen for user/item management].
+
+You are building the Admin Panel for ReWear.
+
+Page must include:
+- Tabs or buttons for:
+  - Manage Users
+  - Manage Listings
+  - Manage Orders / Swaps
+
+Each user/listing should show:
+- Thumbnail
+- Basic info (username, item name, email)
+- Action buttons (Approve, Reject, Ban)
+- Details or View More button
+
+Panel layout:
+- Top nav bar or header with quick access
+- Table-style layout or stacked cards
+- Responsive design with filters/search
+
+Output: A clean and intuitive admin panel interface that supports all moderation actions.
+
+BACKEND:
+Let’s play a very interesting game: from now on you will play the role [full-stack backend systems engineer], a new version of AI model able to [design, structure, and build complete backend microservice architectures using Node.js, Express.js, REST APIs, Auth0 authentication, and MySQL database]. To do that, you will [write clean backend code logic for user auth, CRUD operations, admin moderation, point transactions, item listings, and swap processing for a clothing exchange platform]. You will use RESTful routes and modular service logic. If human backend engineers have level 10 knowledge, you have level 280. Be careful — if your system has security flaws or broken DB relations, the platform will fail.
+
+You are building the backend system for **ReWear**, a platform that lets users swap or redeem unused clothes.
+
+🧱 Architecture:
+- Language: Node.js + Express
+- DB: MySQL (with Prisma ORM or raw SQL if needed)
+- Auth: Auth0 (JWT validation middleware)
+- Structure: Microservices — each in its own folder or repo
+
+📦 Microservices:
+- `auth-service`: handles Auth0 integration, user roles, token validation
+- `user-service`: manages user info and point balances
+- `item-service`: add/list/edit items, filter/sort
+- `swap-service`: handle swap requests and point-based redemptions
+- `admin-service`: moderate listings, manage users, fetch platform stats
+
+🔐 Auth Flow:
+- Auth0 handles login/signup
+- JWT sent to backend in `Authorization` header
+- Middleware validates JWT and adds `req.user`
+- Role-based access control (admin, user)
+
+🗂️ API Routes (RESTful):
+- `POST /api/items` – create item
+- `GET /api/items` – list items
+- `GET /api/items/:id` – item detail
+- `POST /api/swaps/request` – swap request
+- `POST /api/points/redeem/:itemId` – redeem item with points
+- `GET /api/users/me` – user profile
+- `PATCH /api/admin/items/:id/approve` – approve listing
+- `DELETE /api/admin/items/:id` – reject/delete listing
+
+📄 Output:
+- Service-by-service file structure
+- REST routes + controllers
+- JWT middleware logic
+- Sequelize or Prisma model definitions
+- MySQL schema creation queries
+
+DATABASE:🧰 Complete MySQL Database Schema (Structured for All Sections)
+🧑‍💼 users
+Field	Type	Constraints
+id	INT	PK, AUTO_INCREMENT
+auth0_id	VARCHAR(255)	UNIQUE, NOT NULL
+name	VARCHAR(100)	
+email	VARCHAR(100)	UNIQUE, NOT NULL
+role	ENUM	('user', 'admin')
+points	INT	DEFAULT 0
+created_at	DATETIME	DEFAULT CURRENT_TIMESTAMP
+
+👕 items
+Field	Type	Constraints
+id	INT	PK, AUTO_INCREMENT
+title	VARCHAR(255)	NOT NULL
+description	TEXT	
+category	VARCHAR(100)	
+size	VARCHAR(50)	
+condition	ENUM	('New', 'Like New', 'Used')
+tags	TEXT	JSON string or CSV
+status	ENUM	('Available', 'Claimed', 'Pending')
+user_id	INT	FK -> users(id)
+created_at	DATETIME	DEFAULT CURRENT_TIMESTAMP
+
+🔁 swaps
+Field	Type	Constraints
+id	INT	PK, AUTO_INCREMENT
+item_id	INT	FK -> items(id)
+requester_id	INT	FK -> users(id)
+status	ENUM	('Pending', 'Accepted', 'Rejected')
+swap_type	ENUM	('Direct', 'Points')
+created_at	DATETIME	DEFAULT CURRENT_TIMESTAMP
+
+🪙 point_transactions
+Field	Type	Constraints
+id	INT	PK, AUTO_INCREMENT
+user_id	INT	FK -> users(id)
+amount	INT	Can be positive or negative
+reason	TEXT	E.g., "Item Redemption", "Upload Bonus"
+created_at	DATETIME	DEFAULT CURRENT_TIMESTAMP
+
+🛠️ moderation_logs
+Field	Type	Constraints
+id	INT	PK, AUTO_INCREMENT
+item_id	INT	FK -> items(id)
+admin_id	INT	FK -> users(id)
+action	ENUM	('Approved', 'Rejected', 'Removed')
+notes	TEXT	Optional comment
+created_at	DATETIME	DEFAULT CURRENT_TIMESTAMP
+
+fUNCTIONALITIES:
+Let’s play a very specific game: from now on you will play the role [frontend logic integrator and full-stack feature engineer], a new version of AI model able to [connect every existing UI button and user action to backend APIs using the most efficient and modern React + TypeScript + REST architecture]. You must not design anything. You must not modify the UI layout. You must only add the working logic for each action and make the full app functional.
+
+🧩 CONTEXT:
+- The **entire frontend UI has already been created** using a previous Lovable AI session
+- All pages have working React components using Vite, TailwindCSS, ShadCN, Radix UI, React Router, and Zod form validation
+- The **backend is complete and functional** using Node.js + Express + MySQL + Auth0 JWT authentication + REST APIs
+- I have **switched to a new Lovable account** to continue adding **interactivity and logic** to all buttons and forms
+
+📌 IMPORTANT:
+> I am **attaching the design screenshots as images**. Please use these as **reference only**. You must not change any styles, layouts, or design components.  
+> Your task is to **connect each visible button to real working functionality**, by calling the proper REST APIs or handling input/output logic for each feature.
+
+🎯 FEATURES TO ACTIVATE:
+
+✅ Authentication (already styled using Auth0):
+- Handle `onClick` for login
+- Redirect to `/dashboard` after Auth0 success
+
+✅ Dashboard:
+- Fetch user profile (`/api/users/me`)
+- Display listings, swaps, and point balance
+- Show stats (uploads, redeemed)
+
+✅ Item Listing Page:
+- Fetch items (`GET /api/items`)
+- Apply search or filter
+- On "Swap" or "Redeem via Points" button click:
+  - POST to `/api/swaps/request` or `/api/points/redeem/:itemId`
+
+✅ Item Detail Page:
+- Fetch item data by ID
+- Show availability
+- Trigger swap or redeem logic with Auth header
+
+✅ Add New Item Page:
+- Submit form data (images + fields) to `POST /api/items`
+- Show preview
+- Validate required fields with Zod
+
+✅ Admin Panel:
+- Show all pending items/users
+- Approve listing: `PATCH /api/admin/items/:id/approve`
+- Reject/delete: `DELETE /api/admin/items/:id`
+- Ban user: Optional
+
+✅ Other:
+- All API calls should use `fetch` or `@tanstack/react-query` (v5+)
+- Handle loading, success, and error states in a clean modular way
+- Use `Authorization: Bearer <token>` headers (Auth0 JWT) where needed
+- Minimal use of `console.log`, use proper state management
+- Use modern React patterns: hooks, async/await, `useMutation`, `useQuery`
+
+📂 Existing Stack:
+- React 18 + TypeScript + Vite
+- TailwindCSS + ShadCN + Radix UI
+- React Hook Form + Zod
+- Auth0 for auth
+- MySQL (backend)
+- REST API backend (Node.js + Express)
+
+📸 ATTACHED:
+- You will receive screenshots of the existing UI (Login, Landing Page, Listing Page, Add Item, Item Detail, Dashboard, Admin Panel)
+- Please align your functionality to those visuals exactly
+
+📄 Output Format:
+- Provide only logic and integration code for each screen:
+  - `onClick`, `onSubmit`, `useMutation`, `useQuery`, `api.ts` helpers
+- DO NOT write any HTML or layout
+- DO NOT design new components
+- DO NOT generate CSS
+- ONLY generate functional TypeScript + React + fetch/query logic
+
+This is the final phase to complete the ReWear app. Please ensure high-quality, clean, working button functionality that matches the existing design and backend.
+
